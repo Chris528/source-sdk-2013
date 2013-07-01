@@ -46,6 +46,9 @@
     <Filter Include="Tool Framework">
       <UniqueIdentifier>{C8FC1989-2499-2137-2EEA-17663813D98F}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\mod">
+      <UniqueIdentifier>{a9826542-aa3b-45ba-9df8-8b5239d87cb0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\..\lib\win32\release\VS2010\libprotobuf.lib">
@@ -1898,6 +1901,9 @@
     <ClInclude Include="toolframework_client.h">
       <Filter>Tool Framework</Filter>
     </ClInclude>
+    <ClInclude Include="mod\ppshaderrender.h">
+      <Filter>Source Files\mod</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mp3player.cpp">
@@ -3381,6 +3387,9 @@
     </ClCompile>
     <ClCompile Include="toolframework_client.cpp">
       <Filter>Tool Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mod\ppshaderrender.cpp">
+      <Filter>Source Files\mod</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

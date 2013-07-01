@@ -53,6 +53,7 @@
 #include "clientmode_shared.h"
 #include "headtrack/isourcevirtualreality.h"
 #include "client_virtualreality.h"
+#include "mod/ppshaderrender.h"
 
 #ifdef PORTAL
 //#include "C_Portal_Player.h"
@@ -2064,6 +2065,7 @@ void CViewRender::RenderView( const CViewSetup &view, int nClearFlags, int whatT
 		}
 
 		// And here are the screen-space effects
+		draw_pp_shaders( view );
 
 		if ( IsPC() )
 		{

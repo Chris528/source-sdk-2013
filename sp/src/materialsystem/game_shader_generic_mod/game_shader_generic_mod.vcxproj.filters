@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f921f054-a334-4cf8-8973-bbba8b001774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Remove me when VAC2 is out">
+      <UniqueIdentifier>{30541ed7-f38a-418d-abae-929117af4f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Link Libraries">
+      <UniqueIdentifier>{4dbea5c1-46db-485f-9227-d75d9a5d2680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f2de1c7f-1736-42e6-bcb7-18af3f816a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source">
+      <UniqueIdentifier>{8907036a-df24-48aa-a1bb-75a9396eef74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\fxc">
+      <UniqueIdentifier>{11f87756-7406-42ef-81be-c6ba4dd934ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\psh">
+      <UniqueIdentifier>{99d569e4-9576-4162-bc62-e8f29e263d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\vsh">
+      <UniqueIdentifier>{aa9619e4-e05b-4380-9d23-d2511b3f5e33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\tier1\checksum_crc.cpp">
+      <Filter>Source Files\Remove me when VAC2 is out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tier1\checksum_md5.cpp">
+      <Filter>Source Files\Remove me when VAC2 is out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shader_dll_verify.cpp">
+      <Filter>Source Files\Remove me when VAC2 is out</Filter>
+    </ClCompile>
+    <ClCompile Include="post_vignette.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="post_sepia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shader_dll_verify.h">
+      <Filter>Source Files\Remove me when VAC2 is out</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseVSShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="commandbuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common_flashlight_fxc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common_fxc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common_hlsl_cpp_consts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common_lightmappedgeneric_fxc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common_pragmas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common_ps_fxc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common_vertexlitgeneric_dx9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common_vs_fxc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp_shader_constant_register_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="refract_dx9_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\dx9sdk\lib\d3dx9.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\public\mathlib.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\public\shaderlib.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\public\tier0.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\public\tier1.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\public\vstdlib.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\devtools\bin\fxc_prep.pl" />
+    <None Include="..\..\devtools\bin\psh_prep.pl" />
+    <None Include="..\..\devtools\bin\updateshaders.pl" />
+    <None Include="..\..\devtools\bin\valve_perl_helpers.pl" />
+    <None Include="..\..\devtools\bin\vsh_prep.pl" />
+    <None Include="PassThrough_vs30.fxc">
+      <Filter>Shader Source\fxc</Filter>
+    </None>
+    <None Include="post_vignette_ps30.fxc">
+      <Filter>Shader Source\fxc</Filter>
+    </None>
+    <None Include="post_sepia_ps30.fxc">
+      <Filter>Shader Source\fxc</Filter>
+    </None>
+    <None Include="build_sdk_2013_shaders.bat" />
+    <None Include="build_shaders.bat" />
+    <None Include="postprocess_shaders.txt">
+      <Filter>Shader Source</Filter>
+    </None>
+  </ItemGroup>
+</Project>

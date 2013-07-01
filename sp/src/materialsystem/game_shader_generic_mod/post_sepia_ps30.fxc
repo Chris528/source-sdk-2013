@@ -1,0 +1,17 @@
+#include "common_ps_fxc.h"
+
+const HALF inRadius : register (c0);
+const HALF outRadius : register (c1);
+
+sampler BaseTextureSampler : register( s0 );
+
+HALF4 main(float2 iTexCoord : TEXCOORD0) : COLOR //out main function
+{
+ 
+	float3 texel = tex2D(BaseTextureSampler,iTexCoord.xy).rgb;
+	float4 cColor = float4(texel.r, texel.g, texel.b, 1.0);
+	cColor.r = dot(texel, float3(.393, .769, .189));
+	cColor.g = dot(texel, float3(.349, .686, .168));
+	cColor.b = dot(texel, float3(.272, .534, .131));
+	return cColor;
+}
