@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client (HL2)", "game\client
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server (HL2)", "game\server\server_hl2-2010.vcxproj", "{C3EE918E-6836-5578-1FA2-5703048552B9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game_shader_generic_mod", "materialsystem\game_shader_generic_mod\game_shader_generic_mod.vcxproj", "{C8D2DC83-E117-7576-7B43-10C844264C51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{C3EE918E-6836-5578-1FA2-5703048552B9}.Debug|Win32.Build.0 = Debug|Win32
 		{C3EE918E-6836-5578-1FA2-5703048552B9}.Release|Win32.ActiveCfg = Release|Win32
 		{C3EE918E-6836-5578-1FA2-5703048552B9}.Release|Win32.Build.0 = Release|Win32
+		{C8D2DC83-E117-7576-7B43-10C844264C51}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8D2DC83-E117-7576-7B43-10C844264C51}.Debug|Win32.Build.0 = Debug|Win32
+		{C8D2DC83-E117-7576-7B43-10C844264C51}.Release|Win32.ActiveCfg = Release|Win32
+		{C8D2DC83-E117-7576-7B43-10C844264C51}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
